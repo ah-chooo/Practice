@@ -1,0 +1,44 @@
+from enum import Enum
+
+
+class SymbolType(Enum):
+    SYMBOL_ERROR = 0
+    SYMBOL_NUMBER_LETTER = 1
+    SYMBOL_TRUE_LETTER = 2
+    SYMBOL_NUMBER = 3
+    SYMBOL_EQUALS = 4
+    SYMBOL_SPACE = 5
+    SYMBOL_SIGN = 6
+    SYMBOL_SEMICOLON = 7
+    SYMBOL_DOLLAR = 8
+
+
+class StatesLexical(Enum):
+    STATE_ERROR = 0
+    STATE_START = 1
+    STATE_ID = 2
+    STATE_SPACE_1 = 3
+    STATE_SPACE_2 = 4
+    STATE_EQUALS = 5
+    STATE_SIGN = 6
+    STATE_INTEGER = 7
+    STATE_SPACE_5 = 8
+    STATE_HEXADECIMAL_WORD = 9
+    STATE_SEMICOLON = 10
+    STATE_SPACE_6 = 11
+    STATE_KEY_CONST = 12
+    STATE_KEY_ANOTHER = 13
+    STATE_DOLLAR = 14
+
+
+class StatesSyntactic(Enum):
+    STATE_ERROR = 0
+    STATE_START = 1
+    STATE_NAME = 2
+    STATE_EQUALS = 3
+    STATE_SIGN = 4
+    STATE_INTEGER = 5
+    STATE_HEXADECIMAL = 6
+    STATE_SEMICOLON = 7
+    STATE_KEY_CONST = 8
+    STATE_DOLLAR = 9

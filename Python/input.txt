@@ -1,0 +1,11 @@
+Const one=1;
+const RRR=$10B;
+CONST WEQ=-23;
+consT d21=$AA;
+conST SSS32aaA2= $2A32A1
+conST       SSaaaaaa11vvvvvvvvvvvvvvvvvaaaS32aaA2           =        $2A3ABABA2A1;
+coonst sa1 = -23;
+const s11a1 = 2332
+const 32wa1 = --323;
+const sa1 = $Q23;
+const sa1 = Q23;;
